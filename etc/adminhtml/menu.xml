@@ -2,8 +2,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="TecSecret_CodeBase::TecSecret" title="TecSecret" module="TecSecret_CodeBase" sortOrder="12" resource="TecSecret_CodeBase::TecSecret" />
-        <add id="TecSecret_CodeBase::title" title="Information &amp; Communication" translate="title" module="TecSecret_CodeBase" sortOrder="50" parent="TecSecret_CodeBase::TecSecret" dependsOnModule="TecSecret_CodeBase" resource="TecSecret_CodeBase::title"/>
+        <add id="TecSecret_CodeBase::tecsecret" title="TecSecret" module="TecSecret_CodeBase" sortOrder="12" resource="TecSecret_CodeBase::tecsecret" />
+        <add id="TecSecret_CodeBase::title" title="Information &amp; Communication" translate="title" module="TecSecret_CodeBase" sortOrder="50" parent="TecSecret_CodeBase::tecsecret" dependsOnModule="TecSecret_CodeBase" resource="TecSecret_CodeBase::title"/>
         <!--add id="TecSecret_CodeBase::extensions" title="More Extensions" translate="title" module="TecSecret_CodeBase" sortOrder="50" parent="TecSecret_CodeBase::title" action="extensions/index/index" resource="TecSecret_CodeBase::extensions"/!-->
         <add id="TecSecret_CodeBase::support" title="Support" translate="title" module="TecSecret_CodeBase" sortOrder="100" parent="TecSecret_CodeBase::title" action="support/index/index" resource="TecSecret_CodeBase::support"/>
     </menu>

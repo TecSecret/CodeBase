@@ -4,7 +4,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="TecSecret_CodeBase::TecSecret" title="tecSecret" sortOrder="12">
+                <resource id="TecSecret_CodeBase::tecsecret" title="tecSecret" sortOrder="12">
                     <resource id="TecSecret_CodeBase::title" title="Information &amp; Communication" sortOrder="50">
                         <!--resource id="TecSecret_CodeBase::extensions" title="More Extensions" sortOrder="50"/!-->
                         <resource id="TecSecret_CodeBase::support" title="Support" sortOrder="100"/>

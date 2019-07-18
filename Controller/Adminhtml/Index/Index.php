@@ -30,7 +30,7 @@ class Index extends \Magento\Backend\App\Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
-        $resultPage->setActiveMenu('TecSecret_CodeBase::TecSecret');
+        $resultPage->setActiveMenu('TecSecret_CodeBase::tecsecret');
         $resultPage->getConfig()->getTitle()->prepend(__('TecSecret'));
         return $resultPage;
     }
